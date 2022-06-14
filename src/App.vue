@@ -5,9 +5,13 @@ import HelloWorld from './components/HelloWorld.vue';
 </script>
 
 <template>
-  <MdiAccountBox style="width: 48px; height: 48px; color: green" />
+  <div class="text-center mt-12 text-slate-800">
+    <div class="flex items-center justify-center">
+      <MdiAccountBox class="w-12 h-12 text-green-500" />
+    </div>
 
-  <HelloWorld msg="Hello Vue 3 + TypeScript + Vite" />
+    <HelloWorld msg="Hello Vue 3 + TypeScript + Vite" />
+  </div>
 </template>
 
 <style>
@@ -15,8 +19,5 @@ import HelloWorld from './components/HelloWorld.vue';
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
