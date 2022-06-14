@@ -13,6 +13,10 @@
   },
   "devDependencies": {
     "@iconify/json": "^2.1.61",
+    "@tailwindcss/aspect-ratio": "^0.4.0",
+    "@tailwindcss/forms": "^0.5.2",
+    "@tailwindcss/line-clamp": "^0.4.0",
+    "@tailwindcss/typography": "^0.5.2",
     "@vitejs/plugin-vue": "^2.3.3",
     "@vue/compiler-sfc": "^3.2.37",
     "autoprefixer": "^10.4.7",
